@@ -1,0 +1,4 @@
+select * from servico;
+select * nome from cliente  where idcliente = 1 ;
+select * from agenda;
+select dia, hora nome from agenda inner join cliente where fk_idcliente =idCliente;
